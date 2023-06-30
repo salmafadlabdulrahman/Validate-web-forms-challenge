@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Validate web forms</title>
+  </head>
+  <body>
+    <h1>Validating web forms</h1>
+
+    <form action="" method="get" class="form">
+      <div class="firstName container">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" />
+        <p class="first-name-msg msg"></p>
+      </div>
+
+      <div class="lastName container">
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" />
+        <p class="last-name-msg msg"></p>
+      </div>
+
+      <div class="email container">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <p class="email-msg msg"></p>
+      </div>
+
+      <div class="passwrod container">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <p class="password-msg msg"></p>
+      </div>
+
+      <div class="telephone container">
+        <label for="telephone">Telephone</label>
+        <input type="number" name="telephone" id="telephone" />
+        <p class="phone-msg msg"></p>
+      </div>
+
+      <div class="bio container">
+        <label for="bio">Your bio</label>
+        <input type="text" name="bio" id="bio" />
+        <p class="bio-msg msg"></p>
+      </div>
+
+      <div class="btn container">
+        <button class="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
